@@ -9,12 +9,6 @@
 
 }
 
-// LongWordThree("sad",ref Result);
-// ShowArray(Result);
-// LongWordThree("sa",ref Result);
-
-// ShowArray(Result);
-
 void LongWordThree(string word,ref string[] Result )
 {
     int Long = word.Length;
@@ -31,7 +25,6 @@ void AppEnd(ref string[] Result,string word)
     Res[Res.Length-1] = word;
     Result = Res;
 }
-
 
 void ShowArray(string[] testArray)
 {
