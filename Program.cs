@@ -11,8 +11,7 @@
 
 void LongWordThree(string word,ref string[] Result )
 {
-    int Long = word.Length;
-    if (Long < 4) AppEnd(ref Result, word);
+    if (word.Length < 4) AppEnd(ref Result, word);
 }
 
 void AppEnd(ref string[] Result,string word)
